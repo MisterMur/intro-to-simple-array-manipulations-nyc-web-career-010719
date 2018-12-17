@@ -13,3 +13,8 @@ end
 def pop_with_args(arr)
   
 end
+
+
+def using_unshift(arr)
+  arr.unshift
+end
