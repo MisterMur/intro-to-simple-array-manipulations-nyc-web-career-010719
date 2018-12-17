@@ -12,9 +12,10 @@ end
 
 def pop_with_args(arr)
   new_arr=[]
-  new_arr << arr.pop()
-  new_arr << arr.pop()
-  return new_arr
+  # new_arr << arr.pop()
+  # new_arr << arr.pop()
+  arr.pop(2)
+  # return new_arr
 end
 
 
