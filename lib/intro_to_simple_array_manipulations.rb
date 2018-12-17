@@ -30,3 +30,25 @@ def using_concat(arr1,arr2)
 end
 
 def using_insert(arr,el)
+  
+  arr.insert(el,4)
+end
+  
+def using_uniq(arr)
+    arr.uniq
+ end
+ 
+def using_flatten(arr)
+  arr.flatten
+end
+
+def using_delete(arr,str)
+  arr.delete(str)
+end
+
+def using_delete_at(arr,idx)
+  arr.delete_at(idx)
+end
+  
+  
+  
